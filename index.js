@@ -28,7 +28,7 @@ app.use(cors());
 
 // Displaying this text on the screen on local host 5000
 app.get("/", (req, res) => {
-  res.send("This is a Stack Overflow Clone API made by Sukrit");
+  res.send("This is a Stack Overflow Clone API made by ImranKhan");
 });
 
 // If the path is /user/something else then it will use functions in users.js
